@@ -58,7 +58,7 @@ body {
   }
 
   #citrusX__sectionSubhead {
-    width: 332px;
+    /* width: 332px; */
     margin: auto;
   }
 }
@@ -998,7 +998,8 @@ body {
 
 .citrusX__card__image {
   /* background: antiquewhite; */
-  height: 314px;
+  /* height: 314px; */
+  height: 310px;
 }
 
 .citrusX__card__image img {
@@ -1079,7 +1080,8 @@ body {
 @media screen and (max-width:768px) {
   .citrusX__card__image {
     /* background: antiquewhite; */
-    height: 250px;
+    /* height: 250px; */
+    height: 210px;
   }
 }
 
@@ -1124,8 +1126,8 @@ body {
   }
 
   .citrusX__card__image {
-    /* background: antiquewhite; */
-    height: 220px;
+    /* height: 220px; */
+    height: 212px;
   }
 
   .citrusX__card__item_details p {
