@@ -6,7 +6,7 @@ body {
 
 .citrusX__wrapper {
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
 }
 
@@ -72,6 +72,11 @@ body {
 
 .citrusX__mobile-version {
   display: none;
+}
+
+.citrusX__carousel {
+  max-width: 1440px;
+  margin: auto;
 }
 
 .citrusX__carousel_inner {
@@ -178,7 +183,8 @@ body {
 
 @media screen and (max-width:1320px) {
   .citrusX__item_details h1 {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 22px;
     line-height: 26px;
   }
 
@@ -259,7 +265,7 @@ body {
 
 @media screen and (max-width:768px) {
   .citrusX__item_details h1 {
-    line-height: 17px;
+    line-height: 20px;
     font-size: 16px;
   }
 
@@ -320,7 +326,7 @@ body {
   }
 
   .citrusX__heroCTa {
-    color: #45403b;
+    color: #403C36;
     text-transform: capitalize;
     background-color: unset;
     border: none;
@@ -516,6 +522,8 @@ body {
 
 .citrusX__tab-area {
   overflow: hidden;
+  max-width: 1440px;
+  margin: auto;
 }
 
 #citrusX__exploreBackedRecipies {
@@ -695,7 +703,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 30px;
-  border-bottom: 1px solid #021b4e;
+  border-bottom: 1px solid #021B4E;
 }
 
 /* hide arrow */
@@ -818,8 +826,10 @@ body {
 
 /* Real food has real benefits Start */
 #citrusX__raw-items {
+  max-width: 1440px;
+  margin: auto;
   text-align: center;
-  background-color: #efeeea;
+  background-color: #EFEEEB;
   padding-top: 40px;
 }
 
@@ -900,10 +910,24 @@ body {
   font-size: 12px;
 }
 
+@media screen and (max-width:1024px) {
+  .citrusX__raw-item {
+    padding: 0 45px;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  .citrusX__raw-item {
+    padding: 0 20px;
+  }
+}
+
 @media screen and (max-width:425px) {
 
   .citrusX__raw-item {
     width: 1400px;
+    padding: 0 2px;
   }
 
   .citrusX__item-card {
@@ -961,7 +985,7 @@ body {
 
 .citrusX__card__item {
   /* width: 342px; */
-  background-color: #4d644a;
+  background-color: #4D644B;
 }
 
 .citrusX__card__item img {
@@ -995,7 +1019,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 205px;
+  height: 214px;
 }
 
 .citrusX__card__item_details h2 {
@@ -1055,13 +1079,18 @@ body {
 @media screen and (max-width:768px) {
   .citrusX__card__image {
     /* background: antiquewhite; */
-    height: 210px;
+    height: 250px;
   }
 }
 
 @media screen and (max-width:700px) {
   .citrusX__card__row {
     width: 750px;
+  }
+
+  .citrusX__card__image {
+    /* background: antiquewhite; */
+    height: 240px;
   }
 }
 
@@ -1079,7 +1108,7 @@ body {
   } */
 
   .citrusX__card__image {
-    height: 220px;
+    /* height: 250px; */
   }
 
   .citrusX__card__item_details p {
@@ -1092,6 +1121,11 @@ body {
 @media screen and (max-width:375px) {
   .citrusX__card__row {
     /* width: 500px; */
+  }
+
+  .citrusX__card__image {
+    /* background: antiquewhite; */
+    height: 220px;
   }
 
   .citrusX__card__item_details p {
