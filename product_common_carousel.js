@@ -58,7 +58,7 @@
                 pauseOnHover: true,
                 perPage: 4,
                 perMove: 1,
-                gap:60,
+                gap:45,
                 omitEnd: true,
                 breakpoints: {
                     375: {
