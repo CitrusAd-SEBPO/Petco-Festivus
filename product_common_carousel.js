@@ -3,7 +3,7 @@
      --------------------------*/
     // tab Carousel js
     // initialize product scroller
-    advanceArrows("brandName-BakedRecipes-product");
+    advanceArrows("festivus-BakedRecipes-product");
     function advanceArrows(idx) {
         var splideElement = "#" + idx;
         var splideDefaultOptions = {
@@ -46,7 +46,7 @@
         };
 
         // If the add 3rd product then we will skip it
-        if(idx==="brandName-BakedRecipes-product"){
+        if(idx==="festivus-BakedRecipes-product"){
             var splideDefaultOptions = {
                 arrows: false,
                 type: "slide",
@@ -100,12 +100,12 @@
     /* ************************************************************************************** */
     //for tab sweater & loader added
     document.addEventListener("DOMContentLoaded", function () {
-        filterProducts("brandName-BakedRecipes-product");
+        filterProducts("festivus-BakedRecipes-product");
     });
     // for dog filter function
     function filterProducts(c) {
         var x, i;
-        x = document.getElementsByClassName("citrusX__Product");
+        x = document.getElementsByClassName("citrusFestivus__Product");
         if (c == "all") c = "";
         for (i = 0; i < x.length; i++) {
             RemoveClass(x[i], "citrusTabShow");
@@ -139,9 +139,9 @@
     // Add active class to the current button (highlight it)
     document.addEventListener("DOMContentLoaded", function () {
         // for dog active class filter
-        var dogBtnContainer = document.getElementById("citrusXTabId");
-        var dogBtns = dogBtnContainer.getElementsByClassName("citrusX__tab_item");
-        addActiveClass(dogBtns, "citrusX__active_tab");
+        var dogBtnContainer = document.getElementById("citrusFestivusTabId");
+        var dogBtns = dogBtnContainer.getElementsByClassName("citrusFestivus__tab_item");
+        addActiveClass(dogBtns, "citrusFestivus__active_tab");
     });
     function addActiveClass(element, activeClass) {
         for (var i = 0; i < element.length; i++) {

@@ -4,7 +4,7 @@
    --------------------------*/
 // tab Carousel js
 // initialize product scroller
-advanceHealth__longevityArrows("brandName-health__longevity-product");
+advanceHealth__longevityArrows("festivus-health__longevity-product");
 function advanceHealth__longevityArrows(idx) {
     var splideElement = "#" + idx;
     var splideDefaultOptions = {
@@ -52,7 +52,7 @@ function advanceHealth__longevityArrows(idx) {
 /* ************************************************************************************** */
 //for tab sweater & loader added
 document.addEventListener("DOMContentLoaded", function () {
-    filterHealth__longevityProducts("brandName-health__longevity-product");
+    filterHealth__longevityProducts("festivus-health__longevity-product");
 });
 // for dog filter function
 
