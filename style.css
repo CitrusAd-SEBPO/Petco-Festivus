@@ -85,6 +85,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
   /* Common Style */
   .citrusFestivus__commonCTA {
     color: #001952;
@@ -123,6 +124,7 @@ body {
     margin: auto;
   }
 }
+
 /* End Common Style */
 
 
@@ -159,7 +161,7 @@ body {
   top: 0;
   height: 100%;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 4fr 1.1fr;
   align-items: center;
   width: 100%;
 }
@@ -186,10 +188,10 @@ body {
 }
 
 .citrusFestivus__item_details h1 {
-  font-size: 30px;
+  font-size: 28px;
   color: #403C36;
   font-family: "PetcoCircularTT-Bold", arial !important;
-  line-height: 30px;
+  line-height: 28px;
   width: 65%;
 }
 
@@ -273,10 +275,10 @@ body {
 }
 
 @media screen and (max-width:921px) {
-  .citrusFestivus__item_image img {
+  /* .citrusFestivus__item_image img {
     width: 100px;
 
-  }
+  } */
 
   .citrusFestivus__item_details p {
     font-size: 12px;
@@ -414,7 +416,8 @@ body {
 
 @media screen and (max-width:375px) {
   .citrusFestivus__item_details h1 {
-    font-size: 26px;
+    font-size: 28px;
+    line-height: 28px;
     width: 300px;
     padding-bottom: 20px;
   }
@@ -442,6 +445,7 @@ body {
     padding-bottom: 20px;
   }
 }
+
 /* End Hero Slide */
 
 
@@ -577,7 +581,8 @@ body {
 .citrusFestivus__tab_item {
   text-transform: uppercase;
   padding: 12px 10px;
-  margin: 0px 19px;
+  margin: 0px 42px;
+  /* margin: 0px 19px; */
   font-size: 14px;
   text-decoration: none;
   background-color: transparent;
@@ -618,9 +623,10 @@ body {
 }
 
 @media screen and (min-width:1400px) {
-  .splide__list#festivus-BakedRecipes-product-list{
-    width: 85%;
-    margin: 0 auto!important;
+  .splide__list#festivus-BakedRecipes-product-list {
+    max-width: 974px;
+    margin: 0 auto !important;
+    vertical-align: middle
   }
 }
 
@@ -649,6 +655,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
   /* product section */
   .citrusFestivus__main-tab-content {
     padding: 0 0 0 30px;
@@ -684,9 +691,24 @@ body {
 
 
 @media all and (max-width: 575px) {
+
   .citrusFestivus__Product,
   .citrusFestivus__healthLogvity__product {
     max-width: 195px;
+  }
+}
+
+
+@media all and (max-width: 425px) {
+  .citrusFestivus__tab_item {
+    margin: 0px 29px;
+  }
+}
+
+
+@media all and (max-width: 375px) {
+  .citrusFestivus__tab_item {
+    margin: 0px 19px;
   }
 }
 
@@ -694,6 +716,7 @@ body {
 .splide__arrow:disabled {
   opacity: 0;
 }
+
 /* End Product Carousel And Tab Section Combined CSS */
 
 
@@ -794,6 +817,17 @@ body {
     margin: auto;
   }
 }
+
+@media screen and (max-width:375px) {
+  .citrusFestivus__raw-item {
+    column-gap: 40px;
+  }
+
+  .citrusFestivus__item-card img {
+    width: 85px;
+  }
+}
+
 /* End Real food has real benefits Section */
 
 
@@ -945,4 +979,5 @@ body {
     padding: 0 6%;
   }
 }
+
 /* End Dog Thrive Image and Video Section */

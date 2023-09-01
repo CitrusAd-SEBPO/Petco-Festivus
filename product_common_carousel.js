@@ -48,6 +48,7 @@
         // If the add 3rd product then we will skip it
         if(idx==="festivus-BakedRecipes-product"){
             var splideDefaultOptions = {
+                
                 arrows: false,
                 type: "slide",
                 start: 0,
