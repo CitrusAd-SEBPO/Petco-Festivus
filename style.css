@@ -847,7 +847,8 @@ body {
 }
 
 .citrusFestivus__card {
-  width: 1124px;
+  /* width: 1124px; */
+  width: 1094px;
   max-width: 100%;
   margin: auto;
   padding-bottom: 40px;
