@@ -302,7 +302,7 @@ body {
 
 @media screen and (max-width:768px) {
   .citrusFestivus__item_details h1 {
-    line-height: 20px;
+    line-height: 17px;
     font-size: 16px;
   }
 
@@ -981,6 +981,12 @@ body {
     padding: 0 10%;
   }
 
+}
+
+@media screen and (max-width:390px) {
+  .citrusFestivus__item_image img {
+    padding-top: 20px;
+}
 }
 
 @media screen and (max-width:375px) {
