@@ -44,6 +44,7 @@ body {
   text-align: center;
   color: #000000;
   padding-bottom: 30px !important;
+  font-weight: 900;
 }
 
 .citrusFestivus__sectionSubhead {
@@ -192,14 +193,15 @@ body {
   color: #403C36;
   font-family: "PetcoCircularTT-Bold", arial !important;
   line-height: 28px;
+  font-weight: 900;
   width: 65%;
 }
 
 .citrusFestivus__item_details p {
   font-size: 16px;
   color: #4c4944;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 30px;
   font-family: "PetcoCircularTT-Regular", arial !important;
 }
 
@@ -490,7 +492,7 @@ body {
 }
 
 #explore_baked_recipes {
-  padding-bottom: 20px !important;
+  padding-bottom: 10px !important;
 }
 
 .citrusFestivus__tab-container {
@@ -857,7 +859,8 @@ body {
 }
 
 .citrusFestivus__card__row {
-  width: 1124px;
+  /* width: 1124px; */
+  width: 1094px;
   margin: auto;
   gap: 20px;
   display: grid;
@@ -869,7 +872,8 @@ body {
 }
 
 .citrusFestivus__card__image {
-  height: 310px;
+  height: 300px;
+  /* height: 310px; */
 }
 
 .citrusFestivus__card__image img {
