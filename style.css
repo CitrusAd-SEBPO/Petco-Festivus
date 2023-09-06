@@ -806,13 +806,14 @@ body {
 
 @media screen and (max-width:425px) {
   .citrusFestivus__raw-item {
-    width: 1400px;
-    padding: 0 2px;
+    /* width: 1400px; */
+    width: 1332.06px;
+    padding: 0 14px;
   }
 
-  .citrusFestivus__item-card {
-    width: 190px;
-  }
+  /* .citrusFestivus__item-card {
+    max-width: 190px;
+  } */
 
   .citrusFestivus__realFood-disclaimer {
     width: 232px;
@@ -821,8 +822,11 @@ body {
 }
 
 @media screen and (max-width:375px) {
+  
   .citrusFestivus__raw-item {
-    column-gap: 40px;
+    width: 1332.06px;
+    /* column-gap: 45px; */
+    padding: 0 12px;
   }
 
   .citrusFestivus__item-card img {
