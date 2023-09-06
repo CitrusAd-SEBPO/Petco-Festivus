@@ -973,6 +973,10 @@ body {
     gap: 40px;
   }
 
+  #citrusFestivus__card_details-col-1{
+    height: 187px;
+  }
+
   .citrusFestivus__card__item_details p {
     padding: 0 10%;
   }
