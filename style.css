@@ -416,6 +416,13 @@ body {
   }
 }
 
+
+@media screen and (max-width:390px) {
+  .citrusFestivus__item_image img {
+    padding-top: 20px;
+}
+}
+
 @media screen and (max-width:375px) {
   .citrusFestivus__item_details h1 {
     font-size: 28px;
@@ -981,12 +988,6 @@ body {
     padding: 0 10%;
   }
 
-}
-
-@media screen and (max-width:390px) {
-  .citrusFestivus__item_image img {
-    padding-top: 20px;
-}
 }
 
 @media screen and (max-width:375px) {
