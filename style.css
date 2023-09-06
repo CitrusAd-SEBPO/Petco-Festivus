@@ -231,7 +231,7 @@ body {
 @media screen and (max-width:1320px) {
   .citrusFestivus__item_details h1 {
     font-size: 22px;
-    line-height: 26px;
+    line-height: 24px;
   }
 
   .citrusFestivus__item_details p {
@@ -254,8 +254,8 @@ body {
 
   .citrusFestivus__item_details p {
     font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 15px;
     width: 35%;
   }
 
