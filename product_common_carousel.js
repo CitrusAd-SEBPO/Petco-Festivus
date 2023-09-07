@@ -36,7 +36,10 @@
                     perPage: 4,
                 },
                 1200: {
-                    perPage: 6,
+                    perPage: 4,
+                },
+                1400: {
+                    perPage: 5,
                 },
                 1440: {
                     perPage: 6,
